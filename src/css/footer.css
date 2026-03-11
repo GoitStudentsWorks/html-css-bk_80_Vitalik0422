@@ -2,20 +2,22 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
 .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 
-/* DESKTOP */
+    /* DESKTOP */
     @media screen and (min-width: 1440px) {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        gap: 841px;
         align-items: flex-start;
     }
 }
+
 .footer-logo-link {
     display: flex;
     justify-content: center;
@@ -24,57 +26,63 @@
     align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    
-    
-@media screen and (min-width: 768px) {
-    padding: 21px 0 25px;
-}
 
-/* DESKTOP */
-@media screen and (min-width: 1440px) {
-    padding: 0;
-    display: block
-}
+
+    @media screen and (min-width: 768px) {
+        padding: 21px 0 25px;
+    }
+
+    /* DESKTOP */
+    @media screen and (min-width: 1440px) {
+        padding: 0;
+        display: block
+    }
 }
 
 .footer-logo-icon {
-          
-    /* TABLET */
-@media screen and (min-width: 768px) {
-    width: 318px;
-    height: 100px;
- }
 
-/* DESKTOP */
-@media screen and (min-width: 1440px) {
-    width: 79px;
-    height: 25px;
+    /* TABLET */
+    @media screen and (min-width: 768px) {
+        width: 318px;
+        height: 100px;
+    }
+
+    /* DESKTOP */
+    @media screen and (min-width: 1440px) {
+        width: 79px;
+        height: 25px;
+    }
 }
-}
+
 .footer-logo {
-@media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1440px) {
         width: 24px;
         height: 24px;
     }
 
 }
+
 .footer-soc-list {
     display: flex;
     column-gap: 18px;
     margin-bottom: 64px;
 }
+
 .footer-nav-item:not(:last-child) {
     margin-bottom: 32px;
 }
+
 .footer-nav-link {
     font-weight: 400;
-        font-size: 18px;
-        line-height: 1.5;
-        color: #000000;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000000;
 }
+
 .footer-nav-link:active {
     color: #8668c7;
 }
+
 .footer-nav-list {
     margin-bottom: 24px;
     flex-direction: column;
@@ -82,7 +90,7 @@
     align-items: center;
 
 
-/* DESKTOP */
+    /* DESKTOP */
     @media screen and (min-width: 1440px) {
         align-items: flex-start;
     }
@@ -90,24 +98,27 @@
 
 .copypaste-text {
     font-weight: 400;
-        font-size: 14px;
-        line-height: 1.5;
-        color: #000000;
-        text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+    text-align: center;
 }
+
 .copypaste-container {
-border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
     width: 100%;
     padding-top: 32px;
     display: flex;
     justify-content: center;
 
 }
+
 .footer-logo-soc-container {
+
     /* TABLET */
-        @media screen and (min-width: 768px) {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
