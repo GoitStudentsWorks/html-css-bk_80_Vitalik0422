@@ -2,7 +2,6 @@
 .section-title {
     text-align: center;
     margin-bottom: 24px;
-
     font-weight: 400;
     font-family: "Sora", sans-serif;
     font-size: 36px;
@@ -25,9 +24,10 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 24px;
-
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 32px;
+    width: 100%;
+    min-height: 214px;
 }
 .testimonials-list {
     display: flex;
