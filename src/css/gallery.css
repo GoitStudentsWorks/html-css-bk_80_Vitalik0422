@@ -2,6 +2,18 @@
   padding: 64px 0;
 }
 
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.wrapper-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
 .gallery-title {
   font-family: 'Sora', sans-serif;
   font-size: 36px;
@@ -9,13 +21,11 @@
   letter-spacing: -0.01em;
   text-align: center;
   color: #000;
-  margin-bottom: 24px;
 }
 
 .gallery-paragraph {
   font-size: 18px;
   text-align: center;
-  margin-bottom: 40px;
 }
 
 .gallery-block {
